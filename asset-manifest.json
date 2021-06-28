@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5e6b48f2.chunk.css",
+    "main.js": "/static/js/main.fcef5504.chunk.js",
+    "main.js.map": "/static/js/main.fcef5504.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ca553eec.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ca553eec.js.map",
+    "static/js/2.7bd9b470.chunk.js": "/static/js/2.7bd9b470.chunk.js",
+    "static/js/2.7bd9b470.chunk.js.map": "/static/js/2.7bd9b470.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.5e6b48f2.chunk.css.map": "/static/css/main.5e6b48f2.chunk.css.map",
+    "static/js/2.7bd9b470.chunk.js.LICENSE.txt": "/static/js/2.7bd9b470.chunk.js.LICENSE.txt",
+    "static/media/kkulogo.8474fbb5.png": "/static/media/kkulogo.8474fbb5.png",
+    "static/media/profile.232d4ecf.jpg": "/static/media/profile.232d4ecf.jpg",
+    "static/media/programming.66faecc1.svg": "/static/media/programming.66faecc1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca553eec.js",
+    "static/js/2.7bd9b470.chunk.js",
+    "static/css/main.5e6b48f2.chunk.css",
+    "static/js/main.fcef5504.chunk.js"
+  ]
+}
