@@ -57,7 +57,7 @@ export const MobileContaner = styled.div`
     transition: all 0.2s ease-in-out;
 
     @media screen and (max-width:990px){
-       display: block;
+       display: none;
     }
     @media screen and (max-width:767px){
         transition: all 0.2s ease-in-out;
