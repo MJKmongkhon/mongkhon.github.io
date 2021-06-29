@@ -61,6 +61,10 @@ export const Profile = styled.img`
     height: auto;
     border-radius: 50%;
     margin: auto;
+    @media screen and (max-width:900px){
+        max-width: 40%;
+        margin: auto;
+    }
 `
 
 export const AboutMeContainer = styled.div`
@@ -75,10 +79,19 @@ export const AboutMeContainer = styled.div`
 export const AboutMeWrap = styled.div`
     display: grid;
     grid-template-rows: 1fr 3fr;
+    @media screen and (max-width:900px){
+        grid-template-rows: 0.5fr 3fr;
+    }
+
 `
 export const AboutMeInfoWrap = styled.div`
     display: grid;
     grid-template-columns: 1fr 2fr;
+
+    @media screen and (max-width:900px){
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 2fr;
+    }
 `
 export const AboutMeInfoDescWrap = styled.div`
     display: grid;
@@ -93,6 +106,17 @@ export const PersonalInfoWrap = styled.div`
         'birthday' 'email' 1fr
         /1fr 1fr
     ;
+    @media screen and (max-width:900px){
+        text-align: center;
+        grid-template:
+        'name' 1fr
+        'location' 1fr
+        'birthday' 1fr
+        'email' 1fr
+        /1fr
+    ;
+    }
+   
   
 `
 
@@ -112,6 +136,11 @@ export const SkillWrap = styled.div`
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr ;
     grid-gap:10px;
+
+    @media screen and (max-width:900px){
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:1fr 1fr 1fr 1fr;
+    }
 `
 export const SkillInfoWrap = styled.div`
     width: 100%;
@@ -156,6 +185,12 @@ export const EducationContainer = styled.div`
     background:#a73b24;
     display: grid;
     grid-template-columns: 1fr 3fr;
+
+    @media screen and (max-width:900px){
+        grid-template-columns: 1fr ;
+        grid-template-rows:1fr 1fr;
+        padding: 50px 50px 50px 50px;
+    }
 `
 export const EduIconWrap = styled.div`
     display: flex;
@@ -165,6 +200,9 @@ export const EduIconWrap = styled.div`
 export const EduICon = styled.img`
     width: 80%;
     height: auto;
+    @media screen and (max-width:900px){
+        width: 40%;
+    }
 `
 export const EduInfoTextWrap = styled.div`
     display: flex;
@@ -187,6 +225,10 @@ export const CareerWrap = styled.div`
     display: grid;
     grid-column-gap: 10px;
     grid-template-columns: 1fr 1fr;
+    @media screen and (max-width:900px){
+        grid-template-columns: 1fr;
+        grid-template-rows:1fr 1fr;
+    }
 `
 export const CareerIconWrap = styled.div`
     display: flex;
@@ -286,6 +328,11 @@ export const ContactWrap = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
+    @media screen and (max-width:900px){
+        grid-template-columns: 1fr ;
+        grid-template-rows:1fr 1fr 1fr ;
+    }
+    
 `
 export const ContactInfoWrap = styled.div`
     color:#FF5959;
@@ -324,6 +371,7 @@ export const H3 = styled.h3`
         margin-top: 14px;
         width: 30px;
     }
+
 `
 export const H4 = styled.h4`
     font-weight: 800;

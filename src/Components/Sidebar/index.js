@@ -21,13 +21,20 @@ import { FaUniversity } from 'react-icons/fa'
 import { GiStairsGoal, GiPerspectiveDiceThree } from 'react-icons/gi'
 import { HiAcademicCap, HiMail } from "react-icons/hi";
 
+export const closeContact = React.createContext();
+
 const Sidebar = () => {
+    const [isClose,setClose] = useState(true)
+    const toggle = () => {
+        setClose(false)
+    }
     return (
         <>
+            <closeContact.Provider value={'isClose'}>
               <SidebarContainer>
                 <SidebarWrap>
                     <ProfileWrap>
-                        <BtnClose>
+                        <BtnClose onClick={toggle}>
                             <span aria-hidden="true">×</span>
                         </BtnClose>
                         <Profile src={ProfileImg}/>
@@ -119,6 +126,7 @@ const Sidebar = () => {
                    </SidebarMenuWrap>
                 </SidebarWrap>
             </SidebarContainer>
+            </closeContact.Provider>
         </>
     )
 }
